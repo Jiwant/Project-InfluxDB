@@ -1,0 +1,2 @@
+sha=8064ebfe0ce40018c4ce99699acacf472492a676c5a62f5a16b0fddf88803536
+ref-link=https://dl.influxdata.com/influxdb/releases/influxdb-1.7.7_windows_amd64.zip
