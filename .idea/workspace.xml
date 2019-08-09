@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad274a3-189c-4e96-804c-74f1046898e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/influxdb-1.7.7-1/0_testprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_test.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/0_testprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb-1.7.7-1/0_testprocessor.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +19,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/influxdb-1.7.7-1/0_testprocessor.py">
+        <entry file="file://$PROJECT_DIR$/0_testprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
@@ -72,6 +71,7 @@
         <option value="$PROJECT_DIR$/influxdb-1.7.7-1/test.py" />
         <option value="$PROJECT_DIR$/0_test.py" />
         <option value="$PROJECT_DIR$/influxdb-1.7.7-1/0_testprocessor.py" />
+        <option value="$PROJECT_DIR$/0_testprocessor.py" />
       </list>
     </option>
   </component>
@@ -128,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.0_testprocessor">
+  <component name="RunManager" selected="Python.0_testprocessor (1)">
     <configuration name="0_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Project-InfluxDB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,6 +142,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0_testprocessor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project-InfluxDB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0_testprocessor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,6 +194,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0_testprocessor (1)" />
         <item itemvalue="Python.0_testprocessor" />
         <item itemvalue="Python.0_test" />
       </list>
@@ -196,7 +218,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17281349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17281349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
@@ -204,7 +226,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33694476" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33694476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,10 +260,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/influxdb-1.7.7-1/0_testprocessor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/1_collector.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/influxdb-1.7.7-1/0_testprocessor.py">
+    <entry file="file://$PROJECT_DIR$/0_testprocessor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
