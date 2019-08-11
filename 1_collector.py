@@ -1,14 +1,15 @@
 import psutil
 import timeit
+import time
 from influxdb import InfluxDBClient
 db = InfluxDBClient('localhost', 8086, 'root', 'root', 'ProcessorInfo')
 db.create_database("ProcessorInfo")
 start = timeit.default_timer()
-for i in range(1,10):
-    #print(i)
+for i in range(1,10000):
+    print(i)
     json_body = [
         {
-            "measurement": "records-new-10",
+            "measurement": "records-newwwww-10000",
             "tags": {
                 "index": i
             },
@@ -21,6 +22,6 @@ for i in range(1,10):
         }
     ]
     db.write_points(json_body)
-    #time.sleep(1)
+    time.sleep(1)
 stop = timeit.default_timer()
 print(f'Time: {stop - start}')
