@@ -4,19 +4,19 @@ from influxdb import InfluxDBClient
 db = InfluxDBClient('localhost', 8086, 'root', 'root', 'ProcessorInfo')
 db.create_database("ProcessorInfo")
 start = timeit.default_timer()
-for i in range(1,10000):
+for i in range(1,10):
     #print(i)
     json_body = [
         {
-            "measurement": "records-new-10000",
+            "measurement": "records-new-10",
             "tags": {
+                "index": i
+            },
+            "fields": {
                 "cpu_percent_utilization": psutil.cpu_percent(),
                 "number_processes": len(psutil.pids()),
                 "virtual_memory": psutil.virtual_memory()[1],
                 "free_memory": psutil.virtual_memory()[3]
-            },
-            "fields": {
-                "index": i
             }
         }
     ]
