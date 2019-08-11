@@ -9,7 +9,7 @@ for i in range(1,10000):
     print(i)
     json_body = [
         {
-            "measurement": "records-newwwww-10000",
+            "measurement": "records-fast-1000000",
             "tags": {
                 "index": i
             },
@@ -22,6 +22,6 @@ for i in range(1,10000):
         }
     ]
     db.write_points(json_body)
-    time.sleep(1)
+    #time.sleep(1)
 stop = timeit.default_timer()
 print(f'Time: {stop - start}')
