@@ -5,11 +5,11 @@ from influxdb import InfluxDBClient
 db = InfluxDBClient('localhost', 8086, 'root', 'root', 'ProcessorInfo')
 db.create_database("ProcessorInfo")
 start = timeit.default_timer()
-for i in range(1,10000):
+for i in range(1,20):
     print(i)
     json_body = [
         {
-            "measurement": "records-fast-1000000",
+            "measurement": "records-presentation-demo3",
             "tags": {
                 "index": i
             },
@@ -22,6 +22,6 @@ for i in range(1,10000):
         }
     ]
     db.write_points(json_body)
-    #time.sleep(1)
+    time.sleep(1)
 stop = timeit.default_timer()
 print(f'Time: {stop - start}')
