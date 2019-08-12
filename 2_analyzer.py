@@ -14,7 +14,7 @@ for i in range(1, 20):
     not_exist = True
     while(not_exist):
         try:
-            rs = db.query(f'select * from "records-presentation-demo3" where index=~/{i}/')
+            rs = db.query(f'select * from "records-presentation-demo5" where index=~/{i}/')
             data_point = list(rs.get_points())[0]
             print(data_point)
             index_val = data_point['index']

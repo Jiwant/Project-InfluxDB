@@ -9,7 +9,7 @@ for i in range(1,20):
     print(i)
     json_body = [
         {
-            "measurement": "records-presentation-demo3",
+            "measurement": "records-presentation-demo5",
             "tags": {
                 "index": i
             },
